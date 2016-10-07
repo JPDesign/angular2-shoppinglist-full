@@ -1,8 +1,11 @@
 {
   "name": "Shoppinglist",
   "version": "1.0.0",
-  "description": "Demo app for Angular2",
-  "private": true,
+  "description": "Demo app for Angular 2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wortwart/angular2-shoppinglist-full.git"
+  },
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc -w\" \"lite-server\" ",
     "postinstall": "typings install",
