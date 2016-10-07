@@ -1,0 +1,10 @@
+<article>
+	<ul *ngFor="let product of products">
+		<li *ngIf="product.count">
+			<button (click)="removeFromList(product)">&ndash;</button>
+			<button (click)="addToList(product)">+</button>
+			{{product.count}}
+			<input [(ngModel)]="product.name" placeholder="Name"/>
+		</li>
+	</ul>
+</article>

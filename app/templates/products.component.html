@@ -1,0 +1,9 @@
+<h2>{{title}}</h2>
+<aside>
+	<ul *ngFor="let product of products">
+		<li>
+			<button (click)="addToList(product)">{{product.name}}</button>
+			<small (click)="addToList(product)">insgesamt {{product.countTotal}} Mal gekauft</small>
+		</li>
+	</ul>
+</aside>
