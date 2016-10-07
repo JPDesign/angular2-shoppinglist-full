@@ -1,0 +1,12 @@
+body {
+	margin: 2em 3em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666;
+}
+
+footer {
+	margin-top: 3em;
+	border-top: 1px dotted grey;
+	padding-top: 1em;
+	text-align: center;
+}
