@@ -1,4 +1,4 @@
-#Basic demo app for Angular 2
+#Demo app for Angular 2
 
 The app displays a product list with buttons to add the products to a shopping list. It builds on [this basic beginner app](https://github.com/wortwart/angular2-shoppinglist-lite.git).
 
